@@ -46,6 +46,7 @@
 @import "components/banner";
 @import "components/slider";
 @import "components/table";
+@import "components/tooltip";
 @import "components/tab";
 @import "components/wizard";
 
@@ -59,7 +60,7 @@
 
 /*===============theme===============*/
 
-@import "theme/theme-nakDS";
+@import "theme/theme-randomMatches";
 
 /*===============extra===============*/
 

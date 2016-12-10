@@ -37,12 +37,7 @@
 
 .nak-site-footer {}
 
-.nak-header {
-    display: flex;
-    align-items: center;
-    height: 6rem;
-    border-bottom: 1px solid var(--border-color--naked);
-}
+
 .nak-site-content{
   min-height: calc(100vh - 6rem);
 

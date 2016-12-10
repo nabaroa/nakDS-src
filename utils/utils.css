@@ -216,3 +216,7 @@ a.link-print {
 .nak-width-input--inline {
     width: var(--width-input--inline);
 }
+.nak-obj-fit--contain{
+  object-fit: contain;
+  width: 100%;
+}

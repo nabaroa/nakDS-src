@@ -29,6 +29,7 @@
     --barer: #eeeeee;
     --bare: #f5f5f5;
     --white: #ffffff;
+    --white-rgb: 255,255,255;
     /*---------------brand tokens---------------*/
     --color: #103184;
     --second-color: #ff1821;
@@ -47,12 +48,17 @@
     --background-color-heading: var(--wildsand);
     --background-color-toolbar: var(--wildsand);
     --background-color-box: var(--wildsand);
+
     --background-color-button: var(--color);
     --background-color-button--theme: var(--azure);
     --background-color-button--hover: var(--steel-blue);
     --background-color-label: var(--gallery);
     --background-color-input: var(--wildsand);
     --background-color-button--naked--hover: var(--gallery);
+
+    /*---------------Tooltip theme---------------*/
+    --background-color-tooltip: var(--white-rgb);
+    --opacity-background-tooltip:0.9;
     /*---------------color border---------------*/
     --border-color: var(--gallery);
     --border-color--naked: var(--gallery);
@@ -112,9 +118,11 @@
     --width-select--inline: 60%;
     --height-heading-box: 150px;
     /*---------------logo---------------*/
-    --width-logo:30px;
-    --height-logo:30px;
+    --width-logo:250px;
+    --height-logo:;
     /*---------------Spacing---------------*/
+    --margin-header:var(--spacing-large);
+    /*-------------------------------------*/
     --border-width-thin: 1px;
     --border-width-thick: 2px;
     --spacing-none: 0;
