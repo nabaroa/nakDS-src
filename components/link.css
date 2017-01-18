@@ -1,7 +1,7 @@
 /*---------------link---------------*/
 
 a {
-    color: var(--third-color);
+    color: var(--link-color);
     text-decoration: underline;
     cursor: pointer;
     &:hover {

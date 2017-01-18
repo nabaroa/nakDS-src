@@ -18,6 +18,7 @@
     --torch-red300: #ff7479;
     --torch-red200: #ffa2a6;
     --torch-red100: #ffd0d2;
+    --barberry: #D6D41B;
     /*---------------greyscale tokens---------------*/
     --black: black;
     --cod-gray: #111;
@@ -56,9 +57,12 @@
     --background-color-input: var(--wildsand);
     --background-color-button--naked--hover: var(--gallery);
 
+    /*---------------Links---------------*/
+    --link-color:var(--barberry);
     /*---------------Tooltip theme---------------*/
     --background-color-tooltip: var(--white-rgb);
-    --opacity-background-tooltip:0.9;
+    --opacity-background-tooltip:1;
+    --animation-time:.2s;
     /*---------------color border---------------*/
     --border-color: var(--gallery);
     --border-color--naked: var(--gallery);
